@@ -1,0 +1,27 @@
+{
+  "name": "ritual-homework",
+  "version": "1.0.0",
+  "description": "This contract implements a **commit-reveal pattern** for the Ritual AI Bounty Judge, ensuring that participant submissions remain hidden during the submission phase and are only revealed after the deadline. This prevents answer copying and ensures fair judging.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.10",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "ethers": "^6.17.0",
+    "hardhat": "^3.9.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "solc": "^0.8.35",
+    "viem": "^2.53.1"
+  }
+}
